@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "type": "module",
+    "main": "index.js",
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.299.0",
+        "@aws-sdk/client-s3": "^3.299.0",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^18.15.10",
+        "eslint": "^8.36.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-promise": "^6.1.1"
+    }
+}
